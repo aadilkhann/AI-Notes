@@ -1,0 +1,199 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Dataset files (download locally, don't commit)
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+datasets/
+data/*.csv
+data/*.json
+data/*.txt
+data/*.zip
+data/*.tar.gz
+**/data/raw/
+**/data/processed/
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.safetensors
+checkpoints/
+models/
+saved_models/
+outputs/
+wandb/
+
+# Large files
+*.bin
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
+lightning_logs/
+tb_logs/
+tensorboard/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Experiment tracking
+mlruns/
+runs/
+
+# Docker
+*.dockerfile.swp
+
+# Cache directories
+.cache/
+*.cache/
+
+# Hugging Face cache (can be large)
+.cache/huggingface/
+transformers_cache/
+
+# FastAPI / API keys
+secrets/
+*.key
+
+# System monitoring
+*.pid
+
+# Profiling
+*.prof
+*.lprof
+
+# Compiled extensions
+*.pyc
+
+# IDE-specific
+*.sublime-project
+*.sublime-workspace
+
+# Node (if using any JS tooling)
+node_modules/
+
+# Ignore all checkpoints except documentation examples
+!examples/checkpoints/
+
+# Keep directory structure but ignore contents
+**/projects/mini_project/outputs/
+**/projects/advanced_project/outputs/
+**/projects/**/wandb/
+**/projects/**/logs/
+
+# Exception: Keep small example data
+!**/projects/*/data/sample*.csv
+!**/projects/*/data/example*.json
+
+# Vector database persistence
+chroma_db/
+qdrant_storage/
+weaviate_data/
+
+# GPU profiling
+*.nvvp
+*.qdrep
+nsys-rep/
+
+# Keep .gitkeep files to preserve directory structure
+!.gitkeep
